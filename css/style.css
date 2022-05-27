@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background-color: rgb(227, 224, 224);
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.main h1 {
+  color: rgb(191, 87, 87);
+}
+.main p {
+  color: rgb(90, 90, 203);
+}
+.main button {
+  color: rgb(191, 87, 87);
+}
+
+button:hover {
+  color: rgb(90, 90, 203);
+}
+
+.font-18px {
+  font-size: 18px;
+}
+
+.font-16px {
+  font-size: 16px;
+}
+
+.font-14px {
+  font-size: 14px;
+}
+
+@media (max-width: 720px) {
+  .finish-btn {
+    width: 50%;
+  }
+}
+@media (max-width: 540px) {
+  .finish-btn {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+$primary-color: rgb(191, 87, 87);
+$secondary-color: rgb(90, 90, 203);
+body{text-align: center;background-color: rgb(227, 224, 224);}
+button{border: none;
+    padding: 10px;
+border-radius: 8px;}
+.main {
+   & h1{ color: $primary-color} ;
+   & p {color: $secondary-color;}
+   & button {color: $primary-color;}
+}
+button:hover{color: $secondary-color;}
+
+
+$fonts : 18px , 16px , 14px;
+@each $font in $fonts {.font-#{$font}{
+    font-size: $font;
+}
+}
+.finish-btn{
+    @media (max-width:720px) {
+        width: 50%;
+    }
+    @media (max-width:540px) {
+        width: 100%;
+    }
+}
